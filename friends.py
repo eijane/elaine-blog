@@ -2,7 +2,6 @@ from PIL import Image
 import requests
 
 import streamlit as st
-from streamlit_lottie import st_lottie
 
 def load_lottieurl(url):
     r = requests.get(url)
@@ -12,10 +11,8 @@ def load_lottieurl(url):
 
 st.title("MY FRIENDS")
 
-import streamlit as st
 
     # --- LOAD ASSETS ---
-lottie_coding = load_lottieurl("https://assets5.lottiefiles.com/packages/lf20 fcfjwiyb.json")
 img_contact_form = Image.open("images/12.jpg")
 # --- PROJECTS ---
 with st.container():
@@ -24,7 +21,6 @@ with image_column:
     st.image(img_contact_form)
 
        # --- LOAD ASSETS ---
-lottie_coding = load_lottieurl("https://assets5.lottiefiles.com/packages/lf20 fcfjwiyb.json")
 img_contact_form = Image.open("images/15.jpg")
 # --- PROJECTS ---
 with st.container():
@@ -33,7 +29,6 @@ with image_column:
     st.image(img_contact_form)
 
        # --- LOAD ASSETS ---
-lottie_coding = load_lottieurl("https://assets5.lottiefiles.com/packages/lf20 fcfjwiyb.json")
 img_contact_form = Image.open("images/16.jpg")
 # --- PROJECTS ---
 with st.container():
@@ -49,7 +44,6 @@ with st.container():
     st.write("We contribute uniquely to one's social connections and emotional support,offering diverse perspective and enriching life experinces.")
     
        # --- LOAD ASSETS ---
-lottie_coding = load_lottieurl("https://assets5.lottiefiles.com/packages/lf20 fcfjwiyb.json")
 img_contact_form = Image.open("images/4.jpg")
 # --- PROJECTS ---
 with st.container():
@@ -58,7 +52,6 @@ with image_column:
     st.image(img_contact_form)
 
          # --- LOAD ASSETS ---
-lottie_coding = load_lottieurl("https://assets5.lottiefiles.com/packages/lf20 fcfjwiyb.json")
 img_contact_form = Image.open("images/5.jpg")
 # --- PROJECTS ---
 with st.container():
@@ -67,7 +60,6 @@ with image_column:
     st.image(img_contact_form)
 
      # --- LOAD ASSETS ---
-lottie_coding = load_lottieurl("https://assets5.lottiefiles.com/packages/lf20 fcfjwiyb.json")
 img_contact_form = Image.open("images/6.jpg")
 # --- PROJECTS ---
 with st.container():
