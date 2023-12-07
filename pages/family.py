@@ -2,7 +2,6 @@ from PIL import Image
 import requests
 
 import streamlit as st
-from streamlit_lottie import st_lottie
 
 def load_lottieurl(url):
     r = requests.get(url)
@@ -12,10 +11,7 @@ def load_lottieurl(url):
 
 st.title("My Umma")
 
-import streamlit as st
-
     # --- LOAD ASSETS ---
-lottie_coding = load_lottieurl("https://assets5.lottiefiles.com/packages/lf20 fcfjwiyb.json")
 img_contact_form = Image.open("images/8.jpg")
 # --- PROJECTS ---
 with st.container():
@@ -33,10 +29,6 @@ with text_column:
 
 st.title("My Appa")
 
-import streamlit as st
-
-    # --- LOAD ASSETS ---
-lottie_coding = load_lottieurl("https://assets5.lottiefiles.com/packages/lf20 fcfjwiyb.json")
 img_contact_form = Image.open("images/2.jpg")
 # --- PROJECTS ---
 with st.container():
@@ -55,10 +47,6 @@ with text_column:
 
 st.title("My Oppa")
 
-import streamlit as st
-
-    # --- LOAD ASSETS ---
-lottie_coding = load_lottieurl("https://assets5.lottiefiles.com/packages/lf20 fcfjwiyb.json")
 img_contact_form = Image.open("images/3.jpg")
 # --- PROJECTS ---
 with st.container():
@@ -73,10 +61,6 @@ with text_column:
 
 st.title("My Hyeong")
 
-import streamlit as st
-
-    # --- LOAD ASSETS ---
-lottie_coding = load_lottieurl("https://assets5.lottiefiles.com/packages/lf20 fcfjwiyb.json")
 img_contact_form = Image.open("images/13.jpg")
 # --- PROJECTS ---
 with st.container():
@@ -93,10 +77,6 @@ with text_column:
 
 st.title("MY FAMILY")
 
-import streamlit as st
-
-    # --- LOAD ASSETS ---
-lottie_coding = load_lottieurl("https://assets5.lottiefiles.com/packages/lf20 fcfjwiyb.json")
 img_contact_form = Image.open("images/14.jpg")
 # --- PROJECTS ---
 with st.container():
@@ -104,8 +84,6 @@ with st.container():
 with image_column:
     st.image(img_contact_form)
 
-   # --- LOAD ASSETS ---
-lottie_coding = load_lottieurl("https://assets5.lottiefiles.com/packages/lf20 fcfjwiyb.json")
 img_contact_form = Image.open("images/13.jpg")
 # --- PROJECTS ---
 with st.container():
